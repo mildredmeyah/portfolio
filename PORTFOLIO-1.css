@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* navbar styling */
+.navbar{
+    position: absolute;
+    width: 100%;
+    padding: 15px;
+    background: crimson;
+    font-family: 'Courier New', Courier, monospace;
+    z-index: 1;
+}
+.navbar li a :hover{
+    display: inline;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-ou
+
+
+    color: #191919;
+    
+}
+.max-width{
+
+        max-width: 1300px;
+        padding: 0 80px;
+        margin: auto;
+    }
+
+.navbar.max-width{
+    display: flex;
+    align-items: center;
+    
+}   
+
+    li{
+        display: inline;
+
+    }
+
+.menu li a{
+    color: white;
+    list-style: none;
+    display: inline;
+    float: right;
+    padding: 8px;
+
+
+}
+    
+.logo a{
+    font-size: 20px;
+    font-weight: 600;
+    border-style: double;
+    
+    
+    
+}
+.intro{
+    background-color: #191919;
+    border: 25px 25px solid #ddd;
+    border-radius: 5px;
+    padding: none;
+    width: 1920px;
+    height: 400px;
+    float: left;
+}
+
+section {
+    border: 1px 25px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    width: none;
+    float: left;
+
+
+}
+
+.main{
+    width: 550px;
+
+}
+
+
+.p{
+    border: 1px solid #ddd;
+    border-radius: 500px;
+    padding: 0;
+    width: none;
+    float: left;
+    font: italic;
+    background-color: blueviolet;
+}
+img{
+    float: right;
+    padding-right: 2px;
+    padding-top: 2px;
+}
+.text-2{
+    font-size: 20px;
+    font-weight: 0;
+    margin-left: -3px;
+    float: left;
+
+}
+.btn{
+    background-color: crimson; 
+        border-radius: 5px;
+        color: white;
+        padding: 15px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+}
+
+.button {
+    background-color: crimson; 
+    border-radius: 5px;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+  }
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: crimson;
+    height: 50;
+    width: 1920px;
+    padding-bottom: 10px;
+    color: #fff;
+    margin-bottom: 0px;
+    
+}
